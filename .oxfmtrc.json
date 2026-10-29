@@ -1,0 +1,9 @@
+{
+    "$schema": "./node_modules/oxfmt/configuration_schema.json",
+    "printWidth": 140,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "semi": true,
+    "trailingComma": "all",
+    "ignorePatterns": ["node_modules", "dist", ".wrangler", ".agents", "worker-configuration.d.ts", "yarn.lock"]
+}

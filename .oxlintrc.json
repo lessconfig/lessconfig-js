@@ -1,0 +1,14 @@
+{
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "plugins": ["react", "typescript", "oxc", "jsdoc"],
+    "rules": {
+        "curly": ["error", "all"],
+        "jsdoc/check-tag-names": ["error", { "definedTags": ["typeParam"] }],
+        "jsdoc/require-param": "error",
+        "jsdoc/require-param-name": "error",
+        "jsdoc/require-param-description": "error",
+        "jsdoc/require-returns-description": "error",
+        "react/rules-of-hooks": "error",
+        "react/only-export-components": ["warn", { "allowConstantExport": true }]
+    }
+}
